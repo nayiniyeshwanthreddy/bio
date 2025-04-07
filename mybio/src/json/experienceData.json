@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "company": "TechCorp",
+        "role": "Software Engineer",
+        "startDate": "2020-01-15",
+        "endDate": "2022-06-30",
+        "responsibilities": [
+            "Developed and maintained web applications.",
+            "Collaborated with cross-functional teams to define project requirements.",
+            "Optimized application performance and scalability."
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Innovate Solutions",
+        "role": "Frontend Developer",
+        "startDate": "2018-03-01",
+        "endDate": "2019-12-31",
+        "responsibilities": [
+            "Designed and implemented user interfaces using React.",
+            "Ensured cross-browser compatibility and responsiveness.",
+            "Worked closely with UX designers to improve user experience."
+        ]
+    },
+    {
+        "id": 3,
+        "company": "DataWorks Inc.",
+        "role": "Intern",
+        "startDate": "2017-06-01",
+        "endDate": "2017-08-31",
+        "responsibilities": [
+            "Assisted in data analysis and visualization tasks.",
+            "Created scripts to automate repetitive processes.",
+            "Documented workflows and project findings."
+        ]
+    }
+]

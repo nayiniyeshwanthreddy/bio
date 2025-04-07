@@ -1,0 +1,50 @@
+.header {
+    background-color: #92a2c2;
+    height: 60px; /* Adjust the height as needed */
+    display: flex; /* Enables flexbox for side-by-side layout */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Adds space between items */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 80%; /* Ensures it spans the full width of the page */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for separation */
+    position: sticky; /* Makes the header stick to the top */
+    top: 0; /* Ensures the header stays at the top */
+    z-index: 1000; /* Ensures the header stays above other elements */
+    padding-bottom: 80px; /* Adjusted padding for better layout */
+    padding-top: 80px; /* Adjusted padding for better layout */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 20px; /* Added margin for spacing */
+}
+
+.profile-pic:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+/* Added a hover effect for the profile picture */
+
+.text-container {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px; /* Adds spacing inside the container */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.text-container h1 {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    color: #333; /* Darker color for readability */
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    font-weight: bold; /* Makes the heading stand out */
+}
+
+.text-container p {
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    color: #555; /* Softer color for a clean look */
+    line-height: 1.6; /* Improves text spacing */
+    margin: 0; /* Removes default margin */
+}

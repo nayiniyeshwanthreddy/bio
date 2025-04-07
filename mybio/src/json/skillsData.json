@@ -1,0 +1,26 @@
+[
+    {
+        "name": "JavaScript",
+        "features": ["JavaScript"]
+    },
+    {
+        "name": "Python",
+        "features": ["Python"]
+    },
+    {
+        "name": "Java",
+        "features": ["Java"]
+    },
+    {
+        "name": "C++",
+        "features": ["C++"]
+    },
+    {
+        "name": "HTML",
+        "features": ["HTML"]
+    },
+    {
+        "name": "CSS",
+        "features": ["CSS"]
+    }
+]

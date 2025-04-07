@@ -1,0 +1,57 @@
+.experience-container{
+    background-color: #92a2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.experience-item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.experience-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.experience-item p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+.experience-item li {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+.experience-item li:hover {
+    color: #333; /* Change color on hover for better visibility */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.experience-item li:hover::before {
+    content: "• "; /* Add a bullet point before the list item on hover */
+    color: #333; /* Change color of the bullet point on hover */
+}
+.experience-item li:hover::after {
+    content: ""; /* Add an empty content after the list item on hover */
+    display: inline-block; /* Make it inline-block for spacing */
+    width: 5px; /* Adjust width as needed */
+    height: 5px; /* Adjust height as needed */
+    background-color: #333; /* Change color of the bullet point on hover */
+    border-radius: 50%; /* Make it circular */
+    margin-left: 5px; /* Add space between text and bullet point */
+}
